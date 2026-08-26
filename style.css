@@ -36,3 +36,20 @@ button{
     font-weight: 600;
     transition: .5s ease;
 }
+h3#gremio{
+    border-color: #0ef;
+    border-style: dotted;
+}
+.caixa-sagas{
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid;
+    height: 300px;
+    overflow: auto;
+}
+#disciplinas{
+    color: aqua;
+}
+.destaque{
+    font-weight: bold;
+}
