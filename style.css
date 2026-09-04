@@ -53,3 +53,21 @@ h3#gremio{
 .destaque{
     font-weight: bold;
 }
+#cabeçalho{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(86, 226, 43);
+}
+.conteiner-flex{
+    display: flex;
+    flex-direction: column;
+}
+.conteiner-2{
+    display: flex;
+    flex-direction: column;
+}
+.conteiner-3{
+    display: flex;
+    flex-direction: column;
+}
