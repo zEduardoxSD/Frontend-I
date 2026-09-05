@@ -1,6 +1,7 @@
 *{
-    margin: 1vh;
+    margin: 0.8vh;
     padding: .05vh;
+    left: auto;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
@@ -21,6 +22,22 @@
     overflow-x: hidden;
 }
     */
+.nome{
+    color: aquamarine;
+    font-size: x-large;
+}
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 10%;
+    background:rgba(0, 0, 255, 0.233);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
 body{
     background:var(--bg-color);
     color: var(--text-color);
@@ -41,11 +58,12 @@ h3#gremio{
     border-style: dotted;
 }
 .caixa-sagas{
-    margin: 30px;
-    padding: 20px;
+    margin: 1vh;
+    padding: 50px;
     border: 2px solid;
     height: 300px;
-    overflow: auto;
+    overflow: hidden;
+    top: 0;
 }
 #disciplinas{
     color: aqua;
@@ -70,4 +88,14 @@ h3#gremio{
 .conteiner-3{
     display: flex;
     flex-direction: column;
+}
+.navbar a {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-left: 3rem;
+    transition: .3s;
+}
+.navbar a:hover,
+ .navbar a.active {
+    color: var(--main-color);
 }
